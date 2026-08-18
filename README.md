@@ -73,8 +73,6 @@ Link da página publicada:
 
 https://univille-fabrica-de-software.github.io/1Att-LandingPage-LuizFelipe/
 
-*Adicionar após configurar o GitHub Pages.*
-
 ## Projeto acadêmico
 
 **Projeto:** Landing Page - Panorama do Mercado Tech
