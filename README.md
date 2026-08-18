@@ -13,8 +13,8 @@ Fábrica de Software — Sistemas de Informação — Univille — 2026/2
 
 ## Descrição
 
-Landing page acadêmica desenvolvida a partir da pesquisa "Estudo Comparativo de Vagas de Desenvolvimento em Joinville e no Mercado Nacional".
-O projeto apresenta um panorama comparativo entre vagas de tecnologia locais, em Joinville/SC, e vagas nacionais na modalidade remota, com base em oito anúncios publicados no LinkedIn, com base na data 05/08/2026.
+Landing page acadêmica desenvolvida a partir da pesquisa "Estudo Comparativo de Vagas de Desenvolvimento em Joinville/SC e no Mercado Nacional".
+O projeto apresenta um panorama comparativo entre vagas de tecnologia locais e vagas nacionais na modalidade remota, com base em oito anúncios publicados no LinkedIn, com a data corte de 05/08/2026.
 
 ## Tecnologias utilizadas
 
