@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="João Miguel Zazula Lopes">
+  <meta name="description"
+    content="Landing page acadêmica com análise comparativa de vagas de desenvolvimento em Joinville/SC e no mercado remoto nacional">
+  <meta name="keywords" content="tecnologia, mercado de trabalho, vagas de tecnologia, desenvolvimento web, Java, Spring Boot">
+  <meta name="theme-color" content="#198754">
+  <title>Panorama do Mercado Tech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/icons/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#inicio">
+        <img src="assets/images/logo.png" alt="Logo do projeto Panorama do Mercado Tech" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#pesquisa" class="nav-link">Pesquisa</a></li>
+          <li class="nav-item"><a href="#vagas" class="nav-link">Vagas</a></li>
+          <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+          <li class="nav-item"><a href="#competencias" class="nav-link">Competências</a></li>
+          <li class="nav-item"><a href="#analise" class="nav-link">Análise</a></li>
+        </ul>
+        <a href="#vagas" class="btn btn-success">Ver panorama</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="inicio" class="hero-section py-5 my-5">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6">
+          <span class="badge bg-success-subtle text-success fw-semibold px-3 py-2 mb-3 rounded-1 text-uppercase">
+            Atividade Curricular — Fábrica de Software
+          </span>
+          <h1 class="display-4 fw-bold text-success mb-3">
+            Panorama do Mercado de Tecnologia
+          </h1>
+          <p class="lead text-muted mb-4">
+            Análise de vagas locais e nacionais para identificar competências técnicas e comportamentais mais demandadas, com foco em desenvolvimento de software.
+        </p>
+          <a href="#vagas" class="btn btn-success btn-lg px-4">Explorar Vagas</a>
+        </div>
+        <div class="col-12 col-lg-6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pesquisa" class="bg-light py-5 mt-5">
+    <div class="container">
+      <div class="mb-4 mb-md-5">
+        <h2 class="text-success fw-bold display-6 mb-2">Visão Geral do Estudo</h2>
+        <p class="text-muted">
+            Dados compilados das vagas com o termo "Software" analisadas pelo projeto acadêmico da Fábrica de Software.
+        </p>
+      </div>
+
+      <div class="row g-3 g-md-4">
+        <div class="col-6 col-lg-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-success fw-bold">8</h3>
+              <p class="card-text">Vagas Analisadas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-success fw-bold">4</h3>
+              <p class="card-text">Vagas Locais (Joinville/SC)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-success fw-bold">4</h3>
+              <p class="card-text">Vagas Remotas (Nacional)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title text-success fw-bold">6+</h3>
+              <p class="card-text">Linguagens Identificadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vagas" class="py-5">
+    <div class="container">
+      <div class="mb-5">
+        <h2 class="fw-bold text-success">Vagas Analisadas</h2>
+        <p class="text-muted">Comparativo das competências e tecnologias solicitadas em Joinville/SC e no mercado remoto nacional.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="fw-bold text-success border-bottom border-success pb-2 mb-3">Mercado Local / Joinville</h5>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Desenvolvedor Back-end</h5>
+                <span class="badge text-bg-success">Híbrido</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> TOTVS</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">Java</span>
+                <span class="badge text-bg-light border">Spring Boot</span>
+                <span class="badge text-bg-light border">RabbitMQ</span>
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: Microsserviços e Arquitetura Hexagonal</p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Assistente de Suporte de TI</h5>
+                <span class="badge text-bg-success">Presencial</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> UniBF</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">Não Informado</span>
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: Noções de sistemas operacionais e redes</p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Analista de Dados - Produtos</h5>
+                <span class="badge text-bg-success">Híbrido</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> Britânia Eletrodomésticos</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">SQL</span>
+                <span class="badge text-bg-light border">Python</span>
+                <span class="badge text-bg-light border">AARRR</span>
+                <span class="badge text-bg-light border">BigQuery</span>
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: North Star Metric e pensamento crítico</p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Desenvolvedor Back-end</h5>
+                <span class="badge text-bg-success">Presencial</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> Ultra LIMS</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">PHP</span>
+                <span class="badge text-bg-light border">JavaScript</span>
+                <span class="badge text-bg-light border">CSS</span>
+                <span class="badge text-bg-light border">MySQL</span>
+                <span class="badge text-bg-light border">PostgreSQL</span>
+
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: Depuração e resolução de problemas complexos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h5 class="fw-bold text-success border-bottom border-success pb-2 mb-3">Mercado Nacional</h5>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Analista de Dados</h5>
+                <span class="badge text-bg-primary">Remoto</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> DHL Supply Chain</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">SQL</span>
+                <span class="badge text-bg-light border">VBA</span>
+                <span class="badge text-bg-light border">DAX</span>
+                <span class="badge text-bg-light border">Python</span>
+                <span class="badge text-bg-light border">PowerBI</span>
+                <span class="badge text-bg-light border">SQLServer</span>
+                <span class="badge text-bg-light border">Power Query</span>
+                <span class="badge text-bg-light border">Oracle Server</span>
+
+
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: Raciocínio lógico</p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Desenvolvedor Java</h5>
+                <span class="badge text-bg-primary">Remoto</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> BairesDev</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">Java</span>
+                <span class="badge text-bg-light border">SQL</span>
+                <span class="badge text-bg-light border">NoSQL</span>
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: Infreaestrutura de TI</p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title">Desenvolvedor Full-Stack</h5>
+                <span class="badge text-bg-primary">Remoto</span>
+              </div>
+              <p class="mb-1"><strong>Empresa:</strong> GrupoNewChase</p>
+              <div class="mb-2">
+                <span class="badge text-bg-light border">TypeScript</span>
+                <span class="badge text-bg-light border">JavaScript</span>
+                <span class="badge text-bg-light border">HTML5</span>
+                <span class="badge text-bg-light border">CSS3</span>
+                <span class="badge text-bg-light border">React</span>
+                <span class="badge text-bg-light border">Next.js</span>
+              </div>
+              <p class="text-success fw-semibold small mb-0">★ Diferencial: APIs Rest e Docker</p>
+            </div>
+          </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="card-title">Analista de Infraestrutura de TI</h5>
+                    <span class="badge text-bg-primary">Presencial</span>
+                </div>
+                <p class="mb-1"><strong>Empresa:</strong> BairesDev</p>
+                <div class="mb-2">
+                    <span class="badge text-bg-light border">Não Informado</span>
+                </div>
+                <p class="text-success fw-semibold small mb-0">★ Diferencial: Conhecimento de antivírus, cabeamento estruturado e sistemas operacionais</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tecnologias" class="bg-light py-5 my-5" aria-labelledby="tecnologias-citadas-titulo">
+    <div class="container py-5">
+      <div class="mb-5">
+        <h2 id="tecnologias-citadas-titulo" class="fw-bold text-success">Tecnologias Mais Citadas</h2>
+        <p class="text-muted">Ferramentas, linguagens e frameworks mais recorrentes nas vagas analisadas.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-5">
+          <h6 class="fw-bold mb-3">Competências Mapeadas</h6>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Java</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Spring Boot</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">RabbitMQ</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">JavaScript</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Python</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">PHP</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">PowerBI</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">SQLServer</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Power Query</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">SQL</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Oracle Server</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">NoSQL</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">TypeScript</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">HTML5</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">CSS3</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">React</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">Next.js</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">AARRR</span>
+            <span class="badge rounded-pill text-bg-light border px-3 py-2">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="fw-bold mb-4">Frequência entre as 8 vagas analisadas</h6>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>SQL</span><span class="fw-semibold">3/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="APIs REST" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 38%;"></div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>JavaScript / TypeScript</span><span class="fw-semibold">3/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="JavaScript e TypeScript" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 38%;"></div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>Java</span><span class="fw-semibold">2/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Java" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 25%;"></div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>CSS</span><span class="fw-semibold">2/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 25%;"></div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>Spring Boot</span><span class="fw-semibold">1/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Spring Boot" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 13%;"></div>
+                </div>
+              </div>
+
+              <div class="mb-0">
+                <div class="d-flex justify-content-between small mb-1">
+                  <span>Python</span><span class="fw-semibold">1/8</span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Python" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100" style="height: 6px;">
+                  <div class="progress-bar bg-success" style="width: 13%;"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competencias" class="container py-5" aria-labelledby="mercado-exigindo-titulo">
+    <div class="mb-4">
+      <h2 id="mercado-exigindo-titulo" class="fw-bold">O que o mercado está exigindo?</h2>
+      <p class="text-muted">Análise qualitativa dos principais requisitos identificados no estudo de mercado.</p>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="card h-100 border-top border-success border-2">
+          <div class="card-body">
+            <h6 class="fw-bold mb-2">Competências Técnicas</h6>
+            <p class="text-muted small mb-0">As tecnologias mais solicitadas, destacam-se: Java, JavaScript/TypeScript, banco de dados relacionais (SQL) e não relacionais (NoSQL), e serviços em nuvem.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-top border-info border-2">
+          <div class="card-body">
+            <h6 class="fw-bold mb-2">Competências Comportamentais</h6>
+            <p class="text-muted small mb-0">Além das competências técnicas, habilidades como
+                    trabalho em equipe, organização, responsabilidade,
+                    autonomia e resolução de problemas aparecem em
+                    praticamente todas as vagas analisadas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-top border-primary border-2">
+          <div class="card-body">
+            <h6 class="fw-bold mb-2">Local vs Nacional</h6>
+            <p class="text-muted small mb-0">Vagas locais concentram-se em Banco de Dados, tanto com SQL como NoSQL. As remotas exigem maior diversidade de stacks, e são focadas a desenvolvimento em sí.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="analise" class="py-5" style="background-color: #1e4d2b;" aria-labelledby="sintese-titulo">
+    <div class="container">
+      <div class="card mx-auto shadow-sm" style="max-width: 700px;">
+        <div class="card-body text-center p-4 p-md-5">
+          <h2 id="sintese-titulo" class="fw-bold text-success mb-4">Síntese do Aprendizado</h2>
+          <p class="mb-4">
+            Durante a pesquisa foi possível observar que o mercado de tecnologia busca profissionais com conhecimentos em linguagens e ferramentas como Java, Spring Boot e SQL.
+            Além das competências técnicas, habilidades comportamentais como comunicação, trabalho em equipe, organização, responsabilidade, autonomia e resolução de problemas são frequentemente destacadas e até requeridas nas vagas analisadas.
+        </p>
+          <div class="bg-light rounded p-3">
+            <p class="text-muted fst-italic small mb-0">
+                Através da pesquisa do projeto baseado nas minhas Stacks escolhidas — Java, Spring Boot, Infraestrutura e SQL —, aprendi melhor como direcionar minha preparação para estruturar um portfólio profissional e estruturado. Não tinha contato com plataforma LinkedIn da forma que deveria, portanto também foi útil para networking e exemplos profissionais como os professores da Univille.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4" style="background-color: #091d0d;">
+    <div class="container">
+      <div class="row text-light text-center text-md-start">
+        <div class="col-md-6">
+          <p class="fw-semibold mb-0">Fábrica de Software — Engenharia de Software — Univille</p>
+          <p class="small text-white-50 mb-0">Atividade Acadêmica — Landing Page Estática</p>
+        </div>
+        <div class="col-md-6 text-md-end mt-3 mt-md-0">
+          <p class="fw-semibold mb-0">Luiz Felipe da Silva</p>
+          <p class="small text-white-50 mb-0">Data: 17/08/2026</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
