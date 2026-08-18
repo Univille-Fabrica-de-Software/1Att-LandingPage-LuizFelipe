@@ -67,7 +67,7 @@ A landing page foi organizada nas seguintes seções:
 
 Link do repositório:
 
-
+https://github.com/Univille-Fabrica-de-Software/1Att-LandingPage-LuizFelipe
 
 Link da página publicada:
 
